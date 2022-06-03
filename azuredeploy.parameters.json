@@ -30,7 +30,7 @@
           "value": "arm-vm"
       },
       "vmSize": {
-          "value": "Standard_B1s -1vcpu"
+          "value": "Standard_B1s"
       }
     }
   }
