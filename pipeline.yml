@@ -1,0 +1,18 @@
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: windows-2019
+  steps:
+  - checkout: self
+    clean: true
+  - task: AzureResourceManagerTemplateDeployment@3
+    displayName: 'ARM Template deployment: Resource Group scope'
+    inputs:
+      ConnectedServiceName: 331e44fa-dd2a-4dbc-8ed4-92deac003dd6
+      subscriptionName: 19696416-07b9-4753-80aa-43befeb1ed6f
+      resourceGroupName: new-rg
+      location: East US
+      csmFile: azuredeploy.json
+      csmParametersFile: parametrs.json
+...
