@@ -18,7 +18,7 @@
           "value": "Dynamic"
       },
       "publicIpSku": {
-          "value": "Baisc"
+          "value": "Basic"
       },
       "OSVersion": {
           "value": "2019-datacenter-gensecond"
