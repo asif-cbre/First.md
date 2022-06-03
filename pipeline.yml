@@ -11,8 +11,8 @@ jobs:
     inputs:
       ConnectedServiceName: 331e44fa-dd2a-4dbc-8ed4-92deac003dd6
       subscriptionName: 19696416-07b9-4753-80aa-43befeb1ed6f
-      resourceGroupName: new-rg
-      location: East US
+      resourceGroupName: new-rg1
+      location: Australia East
       csmFile: azuredeploy.json
       csmParametersFile: azuredeploy.parameters.json
 ...
