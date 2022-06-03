@@ -120,7 +120,7 @@
                 "access": "Allow",
                 "direction": "Inbound",
                 "destinationPortRange": "3389",
-                "protocol": "Rdp"
+                "protocol": "Tcp"
               }
             }
           ]
