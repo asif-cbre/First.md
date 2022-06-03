@@ -24,7 +24,7 @@
           "value": "2019-datacenter-gensecond"
       },
       "location": {
-          "value": "EastUS"
+          "value": "Australia East"
       },
       "vmName": {
           "value": "arm-vm"
