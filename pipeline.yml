@@ -14,5 +14,5 @@ jobs:
       resourceGroupName: new-rg
       location: East US
       csmFile: azuredeploy.json
-      csmParametersFile: parametrs.json
+      csmParametersFile: azuredeploy.parameters.json
 ...
